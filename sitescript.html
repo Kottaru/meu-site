@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS | Soluções Avançadas para Roblox</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #8b5cf6, #d946ef);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glow-button {
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+            transition: 0.3s;
+        }
+        .glow-button:hover {
+            box-shadow: 0 0 35px rgba(139, 92, 246, 0.7);
+            transform: translateY(-2px);
+        }
+        .badge {
+            background: linear-gradient(90deg, #22c55e, #10b981);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="flex justify-between items-center px-10 py-6 border-b border-white/10 glass sticky top-0 z-50">
+        <div class="text-2xl font-black tracking-tighter uppercase">NEXUS<span class="text-purple-500">.</span></div>
+        <div class="hidden md:flex gap-8 text-sm font-medium opacity-70">
+            <a href="#inicio" class="hover:opacity-100 transition">Início</a>
+            <a href="#servicos" class="hover:opacity-100 transition">Serviços</a>
+            <a href="https://discord.gg/YrPUTMH4JH" class="hover:opacity-100 transition" target="_blank">Suporte</a>
+        </div>
+        <a href="https://discord.gg/YrPUTMH4JH" target="_blank" class="bg-white text-black px-5 py-2 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-purple-500 hover:text-white transition">Entrar no Discord</a>
+    </nav>
+
+    <section id="inicio" class="py-24 px-6 text-center">
+        <div class="flex justify-center gap-2 mb-6">
+            <span class="px-4 py-1 border border-purple-500/30 rounded-full text-xs text-purple-400 font-bold uppercase">Indetectável</span>
+            <span class="badge">Compatibilidade Universal</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">Scripts Premium <br> <span class="gradient-text">Para Todo Executor.</span></h1>
+        <p class="max-w-2xl mx-auto text-gray-400 text-lg mb-10">Desenvolvemos códigos otimizados que funcionam perfeitamente em todos os executores do mercado, garantindo estabilidade e poder absoluto.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="https://discord.gg/YrPUTMH4JH" target="_blank" class="glow-button bg-purple-600 text-white px-10 py-4 rounded-xl font-bold text-lg">Encomendar Script Custom</a>
+            <a href="#servicos" class="glass px-10 py-4 rounded-xl font-bold text-lg hover:bg-white/5 transition">Ver Detalhes</a>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="glass p-8 rounded-3xl">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-lg mb-6 flex items-center justify-center">⚙️</div>
+                <h3 class="text-xl font-bold mb-3">Multi-Executor</h3>
+                <p class="text-gray-400 text-sm">Scripts testados e aprovados em executores Level 7+, Mobile (Delta, Fluxus) e PC (Solara, Wave).</p>
+            </div>
+            <div class="glass p-8 rounded-3xl border-purple-500/30">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-lg mb-6 flex items-center justify-center">🛡️</div>
+                <h3 class="text-xl font-bold mb-3">Bypass Avançado</h3>
+                <p class="text-gray-400 text-sm">Proteção contra detecção do servidor e logs, mantendo sua conta em segurança máxima.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-lg mb-6 flex items-center justify-center">🚀</div>
+                <h3 class="text-xl font-bold mb-3">Zero Lag</h3>
+                <p class="text-gray-400 text-sm">Código limpo e otimizado para não pesar na memória, independente do seu hardware.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="py-10 text-center opacity-40 grayscale flex flex-wrap justify-center gap-10 font-bold text-xl">
+        <span>SOLARA</span>
+        <span>WAVE</span>
+        <span>DELTA</span>
+        <span>FLUXUS</span>
+        <span>CODEX</span>
+        <span>ARCEUS X</span>
+    </div>
+
+    <section id="contato" class="py-20 px-6">
+        <div class="glass max-w-4xl mx-auto rounded-[3rem] p-12 text-center border-purple-500/20">
+            <h2 class="text-3xl font-bold mb-4">Compatível com o seu Executor!</h2>
+            <p class="text-gray-400 mb-8">Não importa onde você executa, o Nexus garante o funcionamento total sem crashes.</p>
+            <a href="https://discord.gg/YrPUTMH4JH" target="_blank" class="inline-block bg-white text-black px-12 py-4 rounded-2xl font-black uppercase tracking-tighter hover:scale-105 transition">Entrar no Discord</a>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-600 text-xs border-t border-white/5">
+        &copy; 2026 NEXUS SCRIPTS. Desenvolvido por João & Maria.
+    </footer>
+
+</body>
+</html>
